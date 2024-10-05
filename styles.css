@@ -1,0 +1,289 @@
+.header{
+    background-color:cornflowerblue;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 10px;
+    font-size: 28px;
+    color: aliceblue;
+}
+hr{
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(86, 125, 199);
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: radial-gradient(aliceblue, rgb(91, 98, 110));
+    margin: 0;
+    padding: 0px 200px 0px 200px;
+    font-family: "Roboto";
+}
+@media (max-width: 1420px) {
+    body{
+        padding: 0px 180px 0px 180px;
+    }
+}
+@media (max-width: 1362px) {
+    body{
+        padding: 0px 150px 0px 150px;
+    }
+}
+@media (max-width: 1304px) {
+    body{
+        padding: 0px 100px 0px 100px;
+    }
+}
+@media (max-width: 1213px) {
+    body{
+        padding: 0px 80px 0px 80px;
+    }
+}
+@media (max-width: 1166px) {
+    body{
+        padding: 0px 50px 0px 50px;
+    }
+}
+@media (max-width: 1100px) {
+    body{
+        padding: 0px 10px 0px 10px;
+    }
+}
+h2{
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+    margin-bottom: 0px;
+}
+.info{
+    display:grid;
+    background-color: aliceblue;
+    border-radius: 0px 0px 25px 25px;
+}
+.structure{
+    margin: 10px;
+    margin-bottom: 60px;
+    align-items: center;
+    position: relative;
+}
+.struct{
+    margin: 15px;
+    position:absolute;
+    top: 0;
+    border-radius: 10px;
+    background-color: rgb(215, 241, 255);
+}
+.struct p{
+    padding: 0px 10px 10px 10px;
+}
+.struct h2{
+    margin-top: 0px;
+    background-color: rgb(95, 175, 232);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+.bond{
+    margin: 10px;
+}
+.bonding{
+    margin: 15px;
+    border-radius: 10px;
+    background-color:rgb(215, 241, 255);
+    color: black;
+}
+.bonding h2{
+    margin-top: 0px;
+    color: white;
+    background-color: rgb(95, 175, 232);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+.bonding p{
+    padding: 0px 10px 10px 10px;
+}
+.lewis-structure{
+    width: 280px;
+    border: 10px solid cornflowerblue;
+    border-radius: 10px;
+}
+.info2{
+    display:grid;
+}
+.photo{
+    display: grid;
+    margin-top: 20px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 330px;
+}
+.sketchfab-embed-wrapper{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.so2photo{
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.so2photo1{
+    width: 240px;
+    -webkit-filter: drop-shadow(10px 10px 10px #2222227d);
+    filter: drop-shadow(10px 10px 10px #2222227d);
+    animation: rotation 10s infinite linear;
+}
+.so2photo div{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+.image{
+    display: grid;
+}
+.name{
+    margin: 10px 25px 10px 25px;
+    text-align: center;
+}
+.name p{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    text-indent: 0px;
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(86, 125, 199);
+}
+.info1{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 5px;
+    padding:0px 15px 0px 15px;
+}
+.properties{
+    display: grid;
+    background-color: rgb(218, 236, 252);
+    padding: 20px 15px 25px 15px;
+    border-radius: 25px;
+}
+.properties h2{
+    margin: 0px;
+}
+.properties1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.solids{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(86, 125, 199);
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+    margin-bottom: 0px;
+    padding: 15px;
+}
+h4{
+    background-color: cornflowerblue;
+    color:rgb(1, 14, 15);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+}
+h5{
+    background-color: aliceblue;
+    color:rgb(1, 14, 15);
+    border-radius: 0px 0px 10px 10px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.info3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+.factors{
+    margin-top: 50px;
+    background-color: rgb(36, 163, 236);
+    border-radius: 10px;
+}
+.factors h2{
+    margin: 10px;
+    color: aliceblue;
+}
+.factor{
+    text-indent: 0px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+}
+.icon{
+    width: 35px;
+    filter: invert(1);
+}
+.icondiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 107, 175);
+    border-radius: 10px 10px 0px 0px;
+}
+.icondiv h3{
+    margin-top: 0px;
+}
+footer{
+    margin: 20px 0px 40px 0px;
+}
+footer h3{
+    background-color: transparent;
+    color: black;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+footer p{
+    text-indent: 0px;
+    margin-top: 5px;
+}
